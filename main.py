@@ -60,3 +60,4 @@ def ouvir_microfone():
 while True:
     if ouvir_microfone():
         break
+    
