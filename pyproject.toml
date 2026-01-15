@@ -1,0 +1,7 @@
+[project]
+name = "dio - Transcrever audio como a IA"
+version = "0.1.0"
+description = "GenAI - como os computadores entendem a linguagem humana!"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
