@@ -1,5 +1,5 @@
 # Sobre
-O script trata sobre a transcrição de linguagem natural por meio de PNL.
+O scripts tratam sobre ML e GenAI.
 
 # Observação
 É um exercio de treinameno!
