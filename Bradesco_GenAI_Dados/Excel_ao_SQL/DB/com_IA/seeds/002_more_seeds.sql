@@ -1,0 +1,22 @@
+
+INSERT INTO tbl_cards (collection_id, hp, name, type, stage, info, damage, weak, resist, retreat, card_number_in_collection) VALUES
+(1, 60, 'Bulbasaur', 'Grass', 'Basic', 'Starter Pokémon with vine whip', '20', 'Fire', NULL, 1, '44/102'),
+(1, 50, 'Charmander', 'Fire', 'Basic', 'Starter Pokémon with ember attack', '30', 'Water', NULL, 1, '46/102'),
+(1, 50, 'Squirtle', 'Water', 'Basic', 'Starter Pokémon with bubble attack', '20', 'Electric', NULL, 1, '63/102'),
+(1, 90, 'Raichu', 'Electric', 'Stage 1', 'Evolution of Pikachu with thunderbolt', '60', 'Ground', 'Metal -20', 2, '14/102'),
+(1, 100, 'Alakazam', 'Psychic', 'Stage 2', 'Powerful psychic Pokémon with confusion', '80', 'Psychic', 'Dark -20', 3, '1/102'),
+(2, 70, 'Scyther', 'Grass', 'Basic', 'Fast jungle Pokémon with slash attack', '40', 'Fire', NULL, 1, '10/64'),
+(2, 80, 'Kangaskhan', 'Colorless', 'Basic', 'Parent Pokémon with comet punch', '50', 'Fighting', NULL, 3, '5/64'),
+(2, 60, 'Jigglypuff', 'Fairy', 'Basic', 'Singing Pokémon with lullaby ability', '20', 'Metal', NULL, 1, '54/64'),
+(2, 90, 'Snorlax', 'Colorless', 'Basic', 'High HP Pokémon with body slam', '60', 'Fighting', NULL, 4, '11/64'),
+(2, 70, 'Electrode', 'Electric', 'Stage 1', 'Explosive Pokémon with self-destruct', '80', 'Ground', NULL, 1, '21/64'),
+(3, 60, 'Kabuto', 'Rock', 'Basic', 'Fossil Pokémon with scratch attack', '30', 'Grass', NULL, 1, '50/62'),
+(3, 80, 'Omastar', 'Water', 'Stage 2', 'Fossil Pokémon with water gun', '40', 'Electric', NULL, 2, '40/62'),
+(3, 100, 'Lapras', 'Water', 'Basic', 'Gentle Pokémon with surf attack', '60', 'Electric', NULL, 2, '10/62'),
+(3, 70, 'Ditto', 'Colorless', 'Basic', 'Transform Pokémon with mimic ability', '20', 'Fighting', NULL, 1, '18/62'),
+(3, 90, 'Moltres', 'Fire', 'Basic', 'Legendary bird Pokémon with fire blast', '80', 'Water', NULL, 2, '12/62'),
+(4, 60, 'Cyndaquil', 'Fire', 'Basic', 'Starter Pokémon with quick attack', '20', 'Water', NULL, 1, '55/111'),
+(4, 80, 'Totodile', 'Water', 'Basic', 'Starter Pokémon with bite attack', '30', 'Electric', NULL, 1, '83/111'),
+(4, 70, 'Chikorita', 'Grass', 'Basic', 'Starter Pokémon with razor leaf', '20', 'Fire', NULL, 1, '53/111'),
+(4, 100, 'Feraligatr', 'Water', 'Stage 2', 'Strong evolution with hydro pump', '80', 'Electric', NULL, 3, '5/111'),
+(5, 220, 'Zamazenta V', 'Metal', 'Basic', 'Legendary shield Pokémon with V mechanics', '180', 'Fire', 'Psychic -30', 2, '002/202');

@@ -1,0 +1,24 @@
+create a script to create a table in sql
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to save colletions set
+
+connect to collect with foreign key
+
+first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- demage
+- weak
+- resis.
+- retreat
+- cardNumbInColletion
+
+second table: tbl_collections
+- id
+- colletionSetName
+- release date
+- totalCardsCollecion
