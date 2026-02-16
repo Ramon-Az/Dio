@@ -1,0 +1,11 @@
+sounddevice
+scipy
+openai-whisper
+python-dotenv
+openai
+gtts
+openai
+gtts
+
+# Comando para instalar as dependências listadas neste arquivo:
+# pip install -r requirements.txt 

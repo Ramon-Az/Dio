@@ -2,13 +2,14 @@
 
 ### Requisitos
 - Python 3.8 ou superior
-- Biblioteca `openai` para acessar a API do OpenAI
+- Biblioteca `openai`
 - Biblioteca `sounddevice` para capturar áudio do microfone
-- Reconhecer fala com `Whisper`da openAI
+- Biblioteca `scipy.io.wavfile`
+- Reconhecer fala com `Whisper local`da openAI para transcrição do audio
 
 ### Funcionalidades
 1. Gravação de áudio do usuário
-    - Python com uma pitada de JS
+    - Python
     
 2. Reconhecimento de fala com Whisper
     - Speed-To-Text da OpenAi

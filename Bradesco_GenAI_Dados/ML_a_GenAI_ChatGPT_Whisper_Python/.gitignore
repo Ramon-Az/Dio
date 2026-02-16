@@ -1,0 +1,6 @@
+# Não enviar chaves API para o GitHub
+.env
+
+# Arquivos de áudio gerados
+data/
+*.wav
