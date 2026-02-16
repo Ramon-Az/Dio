@@ -6,6 +6,9 @@
 - Biblioteca `sounddevice` para capturar áudio do microfone
 - Biblioteca `scipy.io.wavfile`
 - Reconhecer fala com `Whisper local`da openAI para transcrição do audio
+- Biblioteca `dotenv` para carregar a chave da opneai de forma segura 
+- Biblioteca `gtts` converte texto em fala
+- Biblioteca `winsound` reproduz audio no windows
 
 ### Funcionalidades
 1. Gravação de áudio do usuário
