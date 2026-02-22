@@ -11,3 +11,7 @@ Esse repositório contém os códigos utilizados durante o bootcamp do bradesco,
 - **GenAI**:
 
     Criar script para GenAI para criar db com informações relacionais sobre pcg pokemon.
+
+- **Python Estruturas de Dados**
+
+    Conhecer as principais estruturas de dados em python, como tipos de operadores, listas, tuplas, dicionários e conjuntos.
