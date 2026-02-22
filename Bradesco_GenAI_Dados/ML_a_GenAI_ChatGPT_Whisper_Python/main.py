@@ -36,7 +36,6 @@ def transcribe_audio_local(audio_file_path):
     return result['text']
 
 # Função para obter resposta do ChatGPT usando a API da OpenAI. Requer chave de API configurada. Se não estiver configurada, a função retorna None. O programa continua normalmente, mas sem a resposta do ChatGPT.
-
 def get_chatgpt_response(text):
     api_key = os.getenv('OPENAI_API_KEY')
     if not api_key:

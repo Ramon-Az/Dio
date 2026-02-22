@@ -24,6 +24,6 @@
     - Text-To-Speech da google
     
 ### Observação
-- Certifique-se de ter as chaves de API necessárias para acessar os serviços do OpenAI e do Google.
+- Certifique-se de ter as chaves de API necessárias para acessar os serviços do OpenAI.
 
 - Trata-se de um treinamento para aprimorar conhecimentos.
