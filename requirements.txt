@@ -1,0 +1,56 @@
+# Bootcamp Bradesco GenAI e Dados - DIO
+# Dependências Python para todos os projetos
+
+# ===== ML_a_GenAI_ChatGPT_Whisper_Python =====
+# Captura e processamento de áudio
+sounddevice>=0.4.6
+scipy>=1.11.0
+
+# OpenAI Whisper para transcrição de áudio
+openai-whisper>=20231117
+
+# OpenAI API para ChatGPT
+openai>=1.0.0
+
+# Gerenciamento de variáveis de ambiente
+python-dotenv>=1.0.0
+
+# Text-to-Speech (Google)
+gtts>=2.4.0
+
+# ===== Python_Estruturas_Dados =====
+# Jupyter Notebook para exemplos práticos
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# ===== Dependências Gerais =====
+# Manipulação de dados
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualização (caso necessário para análises futuras)
+matplotlib>=3.7.0
+
+# ===== Banco de Dados =====
+# SQL Server (pyodbc para Windows)
+pyodbc>=5.0.0
+
+# MySQL (alternativa)
+mysql-connector-python>=8.2.0
+
+# PostgreSQL (alternativa)
+psycopg2-binary>=2.9.9
+
+# ===== Observações =====
+# Para instalar todas as dependências:
+# pip install -r requirements.txt
+
+# Para instalar apenas um projeto específico:
+# pip install sounddevice scipy openai-whisper python-dotenv openai gtts  # ML_a_GenAI
+# pip install jupyter notebook ipykernel  # Python_Estruturas_Dados
+
+# Nota: Para usar o Whisper, pode ser necessário instalar ffmpeg:
+# Windows: choco install ffmpeg
+# Linux: sudo apt install ffmpeg
+# macOS: brew install ffmpeg
