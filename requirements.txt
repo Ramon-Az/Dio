@@ -18,6 +18,11 @@ python-dotenv>=1.0.0
 # Text-to-Speech (Google)
 gtts>=2.4.0
 
+# ===== Fundamentos_ML_GenAI =====
+# Reconhecimento de fala
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13
+
 # ===== Python_Estruturas_Dados =====
 # Jupyter Notebook para exemplos práticos
 jupyter>=1.0.0

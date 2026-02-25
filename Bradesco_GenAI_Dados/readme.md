@@ -15,3 +15,7 @@ Esse repositório contém os códigos utilizados durante o bootcamp do bradesco,
 - **Python Estruturas de Dados**
 
     Conhecer as principais estruturas de dados em python, como tipos de operadores, listas, tuplas, dicionários e conjuntos.
+  
+    Alguns desafios de código em diferentes linguagens como: java, c#, javascript, python e Kotlin.
+    
+    Revisão geral sobre: Listas, tuplas, conjuntos, dicionários e funções.
