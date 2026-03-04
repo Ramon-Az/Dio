@@ -43,5 +43,7 @@ Thumbs.db
 .env
 .venv
 
+# Amazon Q Memory Bank (local only)
+.amazonq/
 
 Certificados/
