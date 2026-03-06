@@ -6,4 +6,5 @@
 
 ## Atividades
 
-- 
+- Desafio: Criando um dashboard de vendas do xbox com Excel;
+-
