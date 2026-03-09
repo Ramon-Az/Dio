@@ -33,7 +33,7 @@ O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma c
 - **Foco da ferramenta:** Armazenamento inteligente e econômico de documentos e arquivos
 - **Descrição de caso de uso:** Armazenamento de receitas digitalizadas, laudos médicos, notas fiscais e documentos regulatórios no Amazon S3 com a classe Intelligent-Tiering, que move automaticamente os dados entre camadas de acesso conforme padrões de uso. Documentos recentes permanecem em acesso frequente, enquanto arquivos antigos migram para camadas mais econômicas. Redução estimada de 70% nos custos de armazenamento comparado a soluções tradicionais, com conformidade LGPD através de criptografia e controles de acesso.
 
----E
+---
 ## Resultados Esperados
 
 ### Benefícios Financeiros
