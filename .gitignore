@@ -22,8 +22,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-*.json
-
 
 # IDE
 .vscode/
@@ -42,6 +40,16 @@ Thumbs.db
 # Environments
 .env
 .venv
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+
+# MongoDB
+*.log
+data/
+mongodb_data/
 
 # Amazon Q Memory Bank (local only)
 .amazonq/

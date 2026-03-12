@@ -1,0 +1,25 @@
+{
+    "_id":1,
+    "nome":"Ana",
+    "idade": 30,
+    "data_nascimento": "1992-10-05",
+    "endereco": "Via Orlando Jose scutti, 245 ...",
+    "enderecos": [{
+        "logradouro": "Via Orlando Jose scutti",
+        "numero": 245,
+        "bairro": "Vila Industrial",
+        "cidade": "Araraquara"
+    }],
+    "interesses":[
+        "kart", "culinaria"
+    ],
+    "reservas":[
+        {
+            "id_reserva": 100,
+            "data": "2022-10-05",
+            "valor": 300,
+            "status": "confirmada",
+            "destino": "ObjectId(633873398028840023456789)"
+        }
+    ]
+}
