@@ -10,5 +10,5 @@
 - Desafio: Operadores estruturais condicionais;
 - Desafio: Redução de custos farmácia com a AWS;
 - Instalação MongDB via docker e inserção de colletions no bd via python;
-- Fundamentos de ETL com Python: Foram usadas bibliotecas Pandas e suas funções, a Scikit-Learn e Framework Luigi para ETL.
-- Desafio: Explorando IA Generativa em um pipeline de ETL com Python.
+- Fundamentos de ETL com Python: Foram usadas bibliotecas Pandas e suas funções, a Scikit-Learn e Framework Luigi para ETL;
+- Desafio: Explorando IA Generativa em um pipeline de ETL com Python;

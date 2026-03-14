@@ -1,18 +1,19 @@
-# Bootcamp Bradesco GenAI e Dados - DIO
+# Repositório DIO - Cursos e Bootcamps
 # Dependências Python para todos os projetos
+# pip install -r requirements.txt
 
-# ===== ML_a_GenAI_ChatGPT_Whisper_Python =====
+# ===== ML_GenAI_ChatGPT_Whisper_Python (bradesco-genai-dados) =====
 # Captura e processamento de áudio
 sounddevice>=0.4.6
 scipy>=1.11.0
 
-# OpenAI Whisper para transcrição de áudio
+# Transcrição de áudio com OpenAI Whisper
 openai-whisper>=20231117
 
-# OpenAI API para ChatGPT
+# API OpenAI (ChatGPT)
 openai>=1.0.0
 
-# Gerenciamento de variáveis de ambiente
+# Variáveis de ambiente
 python-dotenv>=1.0.0
 
 # Text-to-Speech (Google)
@@ -23,39 +24,60 @@ gtts>=2.4.0
 SpeechRecognition>=3.10.0
 PyAudio>=0.2.13
 
-# ===== Python_Estruturas_Dados =====
-# Jupyter Notebook para exemplos práticos
+# ===== Python_Estruturas_Dados (bradesco-genai-dados) =====
+# Jupyter Notebook
 jupyter>=1.0.0
 notebook>=7.0.0
 ipykernel>=6.25.0
+
+# ===== Fundamentos_e_Tecnicas_de_ML (totvs) =====
+# Redes neurais e deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Machine learning clássico
+scikit-learn>=1.3.0
+
+# ===== Introducao_BD_Relacionais_ETL (totvs) =====
+# MongoDB
+pymongo>=4.5.0
+
+# Pipeline ETL
+luigi>=3.4.0
+
+# Requisições HTTP (pipeline GenAI com Ollama)
+requests>=2.31.0
 
 # ===== Dependências Gerais =====
 # Manipulação de dados
 pandas>=2.0.0
 numpy>=1.24.0
 
-# Visualização (caso necessário para análises futuras)
+# Visualização
 matplotlib>=3.7.0
 
 # ===== Banco de Dados =====
-# SQL Server (pyodbc para Windows)
+# SQL Server (Windows)
 pyodbc>=5.0.0
 
-# MySQL (alternativa)
+# MySQL
 mysql-connector-python>=8.2.0
 
-# PostgreSQL (alternativa)
+# PostgreSQL
 psycopg2-binary>=2.9.9
 
 # ===== Observações =====
-# Para instalar todas as dependências:
-# pip install -r requirements.txt
+# Instalar dependências de um projeto específico:
+# pip install sounddevice scipy openai-whisper python-dotenv openai gtts  # ML_GenAI
+# pip install SpeechRecognition PyAudio                                    # Fundamentos_ML_GenAI
+# pip install torch torchvision scikit-learn                               # Redes Neurais
+# pip install pymongo luigi requests                                       # ETL/MongoDB
+# pip install jupyter notebook ipykernel                                   # Notebooks
 
-# Para instalar apenas um projeto específico:
-# pip install sounddevice scipy openai-whisper python-dotenv openai gtts  # ML_a_GenAI
-# pip install jupyter notebook ipykernel  # Python_Estruturas_Dados
-
-# Nota: Para usar o Whisper, pode ser necessário instalar ffmpeg:
+# Nota: O Whisper requer ffmpeg instalado no sistema:
 # Windows: choco install ffmpeg
-# Linux: sudo apt install ffmpeg
-# macOS: brew install ffmpeg
+# Linux:   sudo apt install ffmpeg
+# macOS:   brew install ffmpeg
+
+# Nota: MongoDB pode ser executado via Docker:
+# docker-compose up -d  (em totvs-fundamentos-eng-dados-e-ml/introducao-bd-relacionais-etl/)
