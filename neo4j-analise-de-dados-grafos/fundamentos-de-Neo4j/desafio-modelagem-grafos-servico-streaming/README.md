@@ -45,7 +45,7 @@ O desenvolvimento do modelo evidenciou a importância de estruturar claramente o
 
 Inicialmente foi difícil construir como seriam as relações de cada grupo no banco de grafos, e definir o direcionamento das setas. Depois adotei o método apresentado pelo diagrama geral e ficou claro como apresentar a solução do desafio.
 
-### ➕ Comandos Cypher - MATCH
+### ➕ Comandos Cypher - CREATE
 
 ```cypher
 CREATE ()<-[:_RELATED]-(User)-[:_RELATED]->(),
