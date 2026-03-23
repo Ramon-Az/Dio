@@ -57,3 +57,5 @@ mongodb_data/
 Certificados/
 
 .MNIST_data/
+
+node_modules/
